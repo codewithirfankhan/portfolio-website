@@ -30,7 +30,7 @@
 
     <section class="mission-section">
         <h2 id="text-center">My Mission in <span id="span-color">2022</span></h2> 
-        <div class= "flexible-section"> 
+        <div class= "flexible-section mission-section"> 
             <div class="mission-item third-column">
                 <img src="images/illustrators/illustrator-1.png" alt="">
                 <h3>Mission</h3>
@@ -98,33 +98,23 @@
 
     </section>
 
-    <section class="flexible-section">
-       <div class="half-width">
-            <form action="/action_page.php">
-      
-            <div class="row">
-                <div class="col-50">
-                    <input type="text" id="fname" name="firstname" placeholder="Name">
-                
-                    <input type="text" id="email" name="email" placeholder="Email">
-                </div>
-    
-                <div class="row">
-                  <div class="col-50">
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="state" placeholder="NY">
-                  </div>
-                  <div class="col-50">
-                    <label for="zip">Zip</label>
-                    <input type="text" id="zip" name="zip" placeholder="10001">
-                  </div>
-                </div>
-              </div>
-    
+    <section >
+        <h2 id="text-center">Contact Form</h2>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input class="button" type="submit" value="Submit">
           </form>
         </div>
-      </div>
-    </div>
 
     </section>
 
