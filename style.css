@@ -84,10 +84,11 @@ h3 {
 }
 
 .third-column {
-    width: 50%;
+    width: 30%;
     padding-left: 5%;
     padding-right: 5%;
-    margin: auto auto;
+    margin-right: 20px;
+
 
 
 }
